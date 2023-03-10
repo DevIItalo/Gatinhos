@@ -22,8 +22,7 @@
 
 body {
     font-family: var(--font-robot);
-    width: 100vw;
-    height: 100vh;
+
 }
 
 ul, a {
@@ -63,7 +62,7 @@ nav.nav__menu {
 }
 
 section.container {
-    width: 100%;
+    width: 100vw;
     margin-top: 10px;
     
     display: flex;
@@ -75,13 +74,13 @@ section.container {
     text-align: center;
 }
 
-div.titulos h2.titulo__section {
+.titulo {
     font-family: var(--font-destaque);
     font-size: 2em;
 }
 
 
-div.titulos p.descricao__section {
+.descricao {
     font-family: var(--font-robot);
     font-size: 1.1em;
 }
@@ -91,6 +90,17 @@ div.item {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.style-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.c-foto {
+    width: 580px;
+    height: 240px;
 }
 
 footer.footer__container {
@@ -113,10 +123,19 @@ nav.footer__nav {
 
 nav.footer__nav ul.ul__footer{
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav.footer__nav ul.ul__footer li {
     padding: 5px;
+}
+
+.ul__footer img:hover {
+    background-color: var(--cor3);
+    padding: 1px;
+    border-radius: 50%;
 }
 
 div.sobre {
@@ -125,3 +144,4 @@ div.sobre {
     width: 50%;
     padding: 15px;
 }
+

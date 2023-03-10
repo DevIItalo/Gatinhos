@@ -61,3 +61,67 @@ nav.nav__menu {
 .ul__menu li:hover {
     background-color: var(--cor1);
 }
+
+section.container {
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container div.titulos{
+    padding: 15px;
+    text-align: center;
+}
+
+div.titulos h2.titulo__section {
+    font-family: var(--font-destaque);
+    font-size: 2em;
+}
+
+
+div.titulos p.descricao__section {
+    font-family: var(--font-robot);
+    font-size: 1.1em;
+}
+
+div.item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.footer__container {
+    color: var(--cor4);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+div.container__footer {
+    display: flex;
+}
+
+nav.footer__nav {
+    background-color: var(--cor0);
+    text-align: center;
+    padding: 16px;
+    width: 50%;
+}
+
+nav.footer__nav ul.ul__footer{
+    margin-top: 15px;
+}
+
+nav.footer__nav ul.ul__footer li {
+    padding: 5px;
+}
+
+div.sobre {
+    background-color: var(--cor1);
+    text-align: center;
+    width: 50%;
+    padding: 15px;
+}
